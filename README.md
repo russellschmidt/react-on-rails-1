@@ -1,24 +1,25 @@
-# README
+# React on Rails 1  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Well hello, gentle stranger. Welcome to me.
 
-Things you may want to cover:
+I am a react on rails app. 
 
-* Ruby version
+* ruby 2.5.0
+* rails 5.2.1
+* react 16
+* Foreman
+* pg 0.18
 
-* System dependencies
+### Start me
+We use foreman in this here town
+`foreman start -f Procfile.dev -p 3000`
 
-* Configuration
 
-* Database creation
+### Tutorials used
+[Grillwork had an excellent one](https://blog.grillwork.io/create-a-ruby-on-rails-5-1-application-with-webpack-react-16-and-react-router-e2c16d267f73)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Config decisions in this tutorial
+1. delete `coffee-rails` gem
+2. delete `turbolinks` gem
+3. remove `require turbolinks` from app>assets>javascripts>application.js
+4. downgrade webpack-dev-server to 2.11.1 per [this error](https://github.com/rails/webpacker/issues/1303)
