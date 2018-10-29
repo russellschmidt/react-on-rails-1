@@ -12,7 +12,7 @@ I am a react on rails app.
 
 ### Start me
 We use foreman in this here town
-`foreman start -f Procfile.dev -p 3000`
+`$ foreman start -f Procfile.dev -p 3000`
 
 
 ### Tutorials used
