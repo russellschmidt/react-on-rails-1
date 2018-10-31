@@ -15,8 +15,8 @@ const App = (props) => (
     <div>
       <TopNav />
       <Switch>
-        <Route exact path='/' component={LandingPage} />
-        <Route exact path='/location' component={LocationPage} />
+        <Route exact path="/" component={LandingPage} />
+        <Route path="/location" component={LocationPage} />
         <Route component={LandingPage} />
       </Switch>
     </div>
