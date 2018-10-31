@@ -1,8 +1,8 @@
-# React on Rails 1  
+# farmhaus react on rails
 
 Well hello, gentle stranger. Welcome to me.
 
-I am a react on rails app. 
+I am a react on rails app. I am farmhaus.
 
 * ruby 2.5.0
 * rails 5.2.1
